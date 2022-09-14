@@ -50,7 +50,9 @@ The client script has an Event connected so another script can show or hide the 
 
 The syntax for broadcasting the event is as follows:
 
+```lua
 Events.Broadcast(COMPONENT_ROOT.id .. ".SetUIVisibility", isVisible))
+```
 
 See below an example on how to close the UI with the ESC key.
 
