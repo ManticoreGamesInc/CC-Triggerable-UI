@@ -16,7 +16,6 @@ Objects {
   }
   ChildIds: 6640892417655431306
   ChildIds: 16756719983148042609
-  ChildIds: 9352915520935690194
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,8 +35,8 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9352915520935690194
-  Name: "Triggerable UI - Potion Shop Example"
+  Id: 16756719983148042609
+  Name: "Potion Shop Example"
   Transform {
     Scale {
       X: 1
@@ -54,55 +53,21 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 17950356168669750380
+      key: 16457722667709006352
       value {
         Overrides {
           Name: "Name"
-          String: "Triggerable UI - Potion Shop Example"
+          String: "Potion Shop Example"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 752.544434
+            X: 900
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15123898430258676698
-    }
-  }
-}
-Objects {
-  Id: 16756719983148042609
-  Name: "Potion Shop"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 16457722667709006352
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Potion Shop"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 987.701904
-            Y: -0.618249893
-            Z: -6.10351562e-05
           }
         }
       }
