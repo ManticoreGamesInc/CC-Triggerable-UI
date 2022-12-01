@@ -5,7 +5,7 @@
 [![Build Status](https://github.com/ManticoreGamesInc/CC-Triggerable-UI/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/CC-Triggerable-UI/actions/workflows/ci.yml?query=workflow%3ACI%29)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/CC-Triggerable-UI?style=plastic)
 
-![Preview](/Screenshots/triggerableui.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
@@ -15,7 +15,7 @@ This component can be found under the **CoreAcademy** account on Community Conte
 
 ## Overview
 
-Triggerable UI is a component that implements logic on a trigger to display a UI Container. 
+Triggerable UI is a component that implements logic on a trigger to display a UI Container.
 
 The goal is to open and close a UI Container using a Trigger's events. The template can be switched from using a trigger's beginOverlapEvent or interactedEvent to open the UI. It also has the option to lock the player when the UI is open.
 
